@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Neil Grogan</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link rel="manifest" href="site.webmanifest" -->
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+    <header>
+        <h1>Neil Grogan's Site</h1>
+
+    </header>
+    <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="label-toggle"></label>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Presentations</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+            <h2 itemprop="name headline">Post Title</h2>
+            <p class="post-meta">
+                <time datetime="2019-02-08T00:00:00+00:00" itemprop="datePublished">Feb 8, 2019</time>
+            </p>
+            <div class="post-content" itemprop="articleBody">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis metus nec felis maximus, a
+                    tempor massa tempus. Maecenas est elit, facilisis id rhoncus quis, gravida ut ipsum. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Maecenas eget tincidunt sem. Donec vehicula
+                    pellentesque lacinia. Nullam porta quam augue, id vestibulum justo lacinia et. Aliquam pellentesque
+                    convallis odio, et dictum augue tristique porttitor. Pellentesque habitant morbi tristique senectus
+                    et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus
+                    et ultrices posuere cubilia Curae; Nulla vel lacus quis nulla eleifend placerat ut venenatis ex. Ut
+                    sit amet felis vel diam bibendum posuere. In hac habitasse platea dictumst. Nulla nec sapien
+                    libero.</p>
+
+                <p>Pellentesque hendrerit dapibus pellentesque. Nullam tincidunt hendrerit dolor at fringilla. Etiam
+                    dignissim est sagittis, blandit nibh ut, sagittis mi. Nulla pulvinar semper eros, nec facilisis
+                    nisi lacinia ac. Maecenas bibendum accumsan eros condimentum pharetra. Quisque eleifend tellus
+                    nisi, et tempor ex varius nec. Curabitur feugiat elementum malesuada.</p>
+
+                <img src="https://source.unsplash.com/800x600" alt="Test Image" />
+
+                <p>Phasellus blandit, nibh vel facilisis faucibus, purus magna venenatis purus, efficitur semper massa
+                    risus eu dolor. Maecenas tempor magna at velit ornare imperdiet quis vulputate leo. Quisque
+                    consequat felis massa, vel eleifend leo pharetra vel. Vestibulum malesuada at urna non imperdiet.
+                    Vivamus varius vitae lectus eget sollicitudin. Etiam et lacus nibh. Duis suscipit congue odio ac
+                    vehicula. Proin in quam orci.</p>
+
+                <pre>This is preformatted code</pre>
+
+                <p>Ut at rhoncus arcu. Sed dapibus ullamcorper nunc iaculis mollis. Donec nibh dolor, vestibulum sit
+                    amet fermentum a, fermentum id nulla. In fermentum gravida velit, at pharetra nunc interdum
+                    tincidunt. Aliquam erat volutpat. Proin eget dolor ultrices, vehicula elit in, sagittis nisl. Sed a
+                    pretium est, et luctus risus.</p>
+
+                <p>Etiam lacinia, tellus at maximus aliquam, sem odio consectetur mi, faucibus vulputate libero justo
+                    sed leo. Donec lobortis velit at nibh congue egestas. Vivamus elementum sapien sit amet pharetra
+                    faucibus. Ut finibus, augue eget venenatis placerat, ligula nibh maximus neque, sed volutpat ex
+                    sapien vel leo. Quisque malesuada imperdiet tincidunt. Etiam dui urna, tincidunt nec tempor et,
+                    accumsan eu nisi. Integer iaculis tellus at urna hendrerit, id pretium turpis tristique. Praesent
+                    nec mauris nisi. Curabitur at leo est. </p>
+            </div>
+        </article>
+    </main>
+    <aside>
+        Sidebar
+    </aside>
+    <footer>
+        <logo>
+            <img src="https://www.neilgrogan.com/img/df-logo.png" alt="Site Logo" />
+        </logo>
+        <social>
+            Follow me on Twitter<br />
+            Follow me on Github
+        </social>
+        <blurb>
+            Neil is a Software Developer from Ireland. He blogs occasionally here!
+        </blurb>
+    </footer>
+</body>
+
+</html>
